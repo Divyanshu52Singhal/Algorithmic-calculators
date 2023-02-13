@@ -1,30 +1,7 @@
 import streamlit as st
 import numpy as np
-import matplotlib.pyplot as plt
 import sklearn
-
-try:
-    # Streamlit < 0.65
-    from streamlit.ReportThread import get_report_ctx
-
-except ModuleNotFoundError:
-    try:
-        # Streamlit > 0.65
-        from streamlit.report_thread import get_report_ctx
-
-    except ModuleNotFoundError:
-        try:
-            # Streamlit > ~1.3
-            from streamlit.script_run_context import get_script_run_ctx as get_report_ctx
-
-        except ModuleNotFoundError:
-            try:
-                # Streamlit > ~1.8
-                from streamlit.scriptrunner.script_run_context import get_script_run_ctx as get_report_ctx
-
-            except ModuleNotFoundError:
-                # Streamlit > ~1.12
-                from streamlit.runtime.scriptrunner.script_run_context import get_script_run_ctx as get_report_ctx
+from matplotlib import pyplot as plt
 
 def process(M,V,ang,Cd,dt,g):
     t = [0]  # list to keep track of time
