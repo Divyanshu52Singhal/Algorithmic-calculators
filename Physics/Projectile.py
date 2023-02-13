@@ -1,7 +1,7 @@
+from matplotlib import pyplot as plt
 import streamlit as st
 import numpy as np
-import sklearn
-from matplotlib import pyplot as plt
+
 
 def process(M,V,ang,Cd,dt,g):
     t = [0]  # list to keep track of time
