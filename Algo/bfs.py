@@ -2,8 +2,6 @@ import streamlit as st
 import networkx as nx
 from collections import defaultdict as ddc
 
-#COMPLETED
-
 
 page_bg_img = """
     <style>
