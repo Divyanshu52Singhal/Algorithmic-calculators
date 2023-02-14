@@ -2,6 +2,18 @@ import streamlit as st
 import networkx as nx
 import matplotlib.pyplot as plt
 
+page_bg_img = """
+    <style>
+    [data-testid="stAppViewContainer"]{
+    background-color:#E5B8F4;
+    padding:none;
+    margin:none;
+    background-image: linear-gradient(0deg,#E5B8F4 ,#810CA8 );
+    }
+    </style>
+    """
+st.markdown(page_bg_img, unsafe_allow_html=True)
+
 
 def find(parent, i):
     if parent[i] == i:
