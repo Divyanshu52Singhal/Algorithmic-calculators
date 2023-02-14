@@ -41,6 +41,7 @@ def lcs(x, y):
     return lcs
 
 st.title("Longest Common Subsequence Finder")
+
 x = st.text_input("Enter the first string:")
 y = st.text_input("Enter the second string:")
 if st.button("Find LCS"):
