@@ -17,6 +17,17 @@ page_bg_img = """
     """
 st.markdown(page_bg_img, unsafe_allow_html=True)
 
+page_bg_img = """
+    <style>
+    [data-testid="stAppViewContainer"]{
+    background-color:#E5B8F4;
+    padding:none;
+    margin:none;
+    background-image: linear-gradient(0deg,#E5B8F4 ,#810CA8 );
+    }
+    </style>
+    """
+st.markdown(page_bg_img, unsafe_allow_html=True)
 def plot_hull(points):
     hull = ConvexHull(points)
     plt.plot(points[:,0], points[:,1], 'o')
