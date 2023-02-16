@@ -1,6 +1,17 @@
 import streamlit as st
 import sympy as sp
 
+page_bg_img = """
+    <style>
+    [data-testid="stAppViewContainer"]{
+    background-color:#E5B8F4;
+    padding:none;
+    margin:none;
+    background-image: linear-gradient(0deg,#E5B8F4 ,#810CA8 );
+    }
+    </style>
+    """
+st.markdown(page_bg_img, unsafe_allow_html=True)
 st.title('Differentiation Calculator')
 
 # Get the user-defined function
