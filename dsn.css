@@ -1,0 +1,104 @@
+.frontpage{
+      background-color:#E5B8F4;
+      padding:none;
+      margin:none;
+      background-image:
+                    linear-gradient(0deg,#E5B8F4 ,#810CA8 );
+
+}
+
+#ourTeam
+{
+  background-image:
+                linear-gradient(0deg,#810CA8, #E5B8F4 );
+}
+a{
+  font-family: Alata;
+}
+#carb
+{
+  filter: none;
+}
+.aco
+{
+  text-decoration: none;
+  color:white;
+
+}
+.aco:hover{
+  color:#8f8f8f;
+}
+li
+{
+  margin:2%;
+  list-style:circle;
+  font-size: 18px;
+}
+h1{
+    font-family: Alata;
+    font-size: 60px;
+    font-weight: 600;
+    margin-top: 70px;
+    line-height: 1.5;
+    padding:5% 10%;
+}
+p{
+  font-size: 18px;
+    margin-left: 70px;
+}
+#carouselExampleIndicators{
+    background-color: #810CA8;
+    color:white;
+    padding: 5%;
+    width:100%;
+    text-align: center;
+    border-radius:33px;
+    box-shadow:7px 10px 15px #C147E9;
+    margin-bottom:4%;
+    filter:none;
+}
+
+h3
+{
+  font
+}
+/* maths css */
+.card
+{
+  margin:0 auto;
+  width:85%;
+  background-color: #810CA8;
+  color:white;
+  padding: 5%;
+  width:100%;
+  border-radius:33px;
+  box-shadow:7px 10px 15px #C147E9;
+  margin-bottom:5%;
+  filter:none;
+
+}
+.ct
+{
+  width:65%;
+  position: relative;
+}
+.mh{
+  color:white;
+  text-align:center;
+  margin:9% auto 5%;
+  padding:0;
+  font-size: 3rem;
+}
+.cx
+{
+  background-image:
+                linear-gradient(0deg,#E5B8F4 ,#810CA8 );
+}
+.py
+{
+  width:40%;
+  height:80%;
+}
+.team {
+  margin-right: 2rem;
+}
