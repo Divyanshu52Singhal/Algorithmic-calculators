@@ -58,7 +58,7 @@ def graphin(m):
             zz[temp[1]].add(temp[0])
     return process(zz)
 
-st.set_option('deprecation.showPyplotGlobalUse', False)
+# st.set_option('deprecation.showPyplotGlobalUse', False)
 
 st.text_input(label="Number Of Edges", placeholder="Enter the value",
                       key="e")
