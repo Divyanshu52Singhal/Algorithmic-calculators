@@ -46,7 +46,7 @@ def get_points():
         return np.array(points)
 
 points = get_points()
-st.set_option('deprecation.showPyplotGlobalUse', False)
+#st.set_option('deprecation.showPyplotGlobalUse', False)
 
 if st.button("Plot Convex Hull"):
     plot_hull(points)

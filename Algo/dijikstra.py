@@ -51,7 +51,7 @@ def get_graph():
     return graph, start, end
 
 graph, start, end = get_graph()
-st.set_option('deprecation.showPyplotGlobalUse', False)
+#st.set_option('deprecation.showPyplotGlobalUse', False)
 
 if st.button("Find Shortest Path"):
     path = dijkstra(graph, start, end)

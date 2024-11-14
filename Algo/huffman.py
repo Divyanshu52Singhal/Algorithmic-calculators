@@ -15,7 +15,7 @@ page_bg_img = """
     """
 st.markdown(page_bg_img, unsafe_allow_html=True)
 st.title("HUFFMAN CODE VISUALIZATION")
-st.set_option('deprecation.showPyplotGlobalUse', False)
+#st.set_option('deprecation.showPyplotGlobalUse', False)
 
 def return_frequency(data):
     # Take a string and determine the relevant frequencies of the characters
